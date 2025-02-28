@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+padding: 0;
+margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, black , rgb(22, 22, 22));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    color: aliceblue;
+    text-decoration:none;
+}
+.aaa{
+    background-image: 
+    linear-gradient(to right,rgba(0, 0, 0, 0.679), rgba(19, 19, 19, 0.696))
+    ,url(space.jpeg)
+
+    ;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 700px;
+    
+}
+    .aaa:hover{
+        background-image: 
+        linear-gradient(to right,rgba(0, 0, 0, 0.679), transparent)
+        ,url(space.jpeg)
+    
+        ;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    
+    }
+    .logo{
+        font-size: 40px;
+    }
+    ul{ 
+        width: 60%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    ul a{
+        border-bottom: 2px solid transparent;
+    }
+    ul a:hover{
+        border-bottom-color: aliceblue;
+    }
+    .bbb{
+        color: aliceblue;
+        width: 50%;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    .bbb h2{
+        font-size: 100px;
+        text-transform: uppercase;
+    }
+    .bbb p{
+        letter-spacing: 3px;
+        width: 520px;
+        padding: 30px 0;
+    }
+    .bbb button{
+        font-size: 30px;
+        padding: 6px 10px;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        cursor: pointer;
+    }
+    .bbb button:hover{
+        background-color: transparent;
+        border-color: aliceblue;
+        color: aliceblue;
+    }
